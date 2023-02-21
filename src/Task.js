@@ -20,7 +20,7 @@ const Task = ({ taskObj, onComplete }) => {
   return (
     <div className=" p-6 bg-white rounded-md leading-5 mt-4 shadow-md">
       <h3 className=" text-lg text-amber-600 ">{taskObj.title}</h3>
-      <div className=" pt-1 text-xs">
+      <div className=" py-2 text-xs">
         son teslim: <span className={renk}>{`${distance1} ${fark}`}</span>
       </div>
       <p className=" text-sm text-zinc-800 py-2 pt-0 pb-3">
